@@ -50,11 +50,12 @@ OPENSSL_PROVINCE="Almeria"
 OPENSSL_LOCALITY="Almeria"
 OPENSSL_ORGANIZATION="IES Celia"
 OPENSSL_ORGUNIT="Departamento de Informatica"
-OPENSSL_COMMON_NAME="practica-https.local"
+OPENSSL_COMMON_NAME="practicahttps-ajgr.zapto.org"
 OPENSSL_EMAIL="admin@iescelia.org"
 ```
 
 Estos datos irán en el archivo `.env` de la carpeta `scripts`.
+![](/img/Screenshot_20241108_124754.png)
 
 # 1.3 Configuración de un VirtualHost con SSL/TSL en el servidor web Apache
 ## Paso 1: Editamos el archivo de configuración del virtual host donde queremos habilitar el tráfico HTTPS.
