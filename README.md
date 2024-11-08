@@ -154,6 +154,19 @@ sudo systemctl restart apache2
 
 Lo siguiente será comprobar que el puerto 443 está abierto en las reglas del firewall para permitir el tráfico HTTPS.
 
+Al final de la práctica los archivos quedarían así:
+```
+.
+├── README.md
+├── conf
+│   ├── 000-default.conf
+│   └── default-ssl.conf
+└── scripts
+    ├── .env
+    ├── install_lamp.sh
+    └── setup_selfsigned_certificate.sh
+```
+
 ![](/img/image.png)
 ![](/img/image2.png)
 ![](/img/image3.png)
